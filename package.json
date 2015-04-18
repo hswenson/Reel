@@ -1,7 +1,7 @@
 {
   "name": "reel",
   "version": "0.1.2",
-  "description": "A Node.js app using Express 4",
+  "description": "Reel: your daily news aggregator",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -9,7 +9,9 @@
   "dependencies": {
     "express": "~4.9.x",
     "request": "latest",
-    "cheerio": "latest"
+    "cheerio": "latest",
+    "mongoose": "~3.8.0"
+
   },
   "engines": {
     "node": "0.10.x"
@@ -23,5 +25,4 @@
     "heroku",
     "express"
   ],
-  "license": "MIT"
 }
